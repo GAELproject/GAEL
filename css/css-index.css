@@ -36,7 +36,7 @@ p {
 	margin:0;
 }
 a {
-	color: #3eb0f7;
+	color: rgb(96, 160, 96);
 	outline: 0;
 	font-weight: bold;
 	-webkit-transition: all .8s ease;
@@ -49,7 +49,7 @@ a:hover {
 	transition: all .8s ease;
 }
 .highlight {
-	color: #3eb0f7;
+	color: #2df31b;
 }
 #preloader { 
 	position: fixed; 
@@ -91,13 +91,13 @@ a:hover {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #3eb0f7;
+	color:#26d847
 }
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
 	background: transparent;
-    color: #3eb0f7;
+   color: rgb(96, 160, 96);
 }
 .btn-default {
 	font-size: 17px;
@@ -106,15 +106,15 @@ a:hover {
 	line-height: 20px;
 	padding: 15px 35px;
 	height: 50px;
-	border: 2px solid #3eb0f7;
+	border: 2px solid rgb(96, 160, 96);
 	background: transparent;
 	transition: all 0.4s;
-	color: #3eb0f7;
+	color:rgb(96, 160, 96) ;
 	border-radius: 100px;
 }
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
-	border: 2px solid #3eb0f7;
-	background: #3eb0f7;
+	border: 2px solid rgb(96, 160, 96) ;
+	background: rgb(29, 31, 29);
 	color: white;
 }
 .btn-primary {
@@ -142,13 +142,14 @@ a:hover {
 	padding: 20px 50px;
 	height: 65px;
 	border: none;
-	background: #3eb0f7;
+	
+	background: #26d847;
 	transition: all 0.4s;
 	color: white;
 	border-radius: 4px;
 }
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open > .dropdown-toggle.btn-secondary {
-	background: #1f96e0;
+	background: #81f596;
 	color: white
 }
 
@@ -381,7 +382,7 @@ a:hover {
     width: 100px;
     height: 3px;
     margin: 0 auto;
-    background: #3eb0f7;
+    background: #27f10c;
 }
 .price-box {
 	border: solid 1px #d1d1d1;
@@ -488,10 +489,10 @@ a:hover {
 }
 .testi-item .client-info .company {
 	font-style: italic;
-	color: #3eb0f7;
+	color: #72f36d;
 }
 .owl-theme .owl-controls .owl-page span{
-	background: #3eb0f7;
+	background: #73f30b;
 }
 .video-header {
 	margin: 40px 0 30px;
@@ -545,7 +546,7 @@ a:hover {
 	margin-left: 15px;
 	position: absolute; 
 	left: 0;
-	color: #3eb0f7; 
+	color: #2df31b; 
 	font-size: 25px;
 	line-height: 30px;
 }
@@ -577,7 +578,8 @@ a:hover {
 #contact-form .btn {
 	height: 55px;
 	width: 100%;
-	background-color: #3eb0f7;
+	
+	background-color: #27f10c;
 	color: #ffffff;
 	font-size: 17px !important;
 	line-height: 18px;
@@ -589,7 +591,7 @@ a:hover {
 	transition: all .8s ease;
 }
 #contact-form .btn:hover {
-	background-color: #1f96e0;
+	background-color: #7ef865;
 	-webkit-transition: all .8s ease;
 	transition: all .8s ease;
 }
@@ -611,16 +613,16 @@ a:hover {
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
-	color: #3eb0f7;
+	color: #27f10c;
 	border-radius: 50%;
 	background: #fff;
-	border: solid 1px #3eb0f7;
+	border: solid 1px #3edb17;
 	-webkit-transition: all .8s ease;
 	transition: all .8s ease;
 }
 .social li a:hover {
 	color: #fff;
-	background: #3eb0f7;
+	background: #18e206;
 }
 #shortcode-basic {
 	padding: 70px 0 10px;
@@ -674,7 +676,7 @@ a:hover {
 	margin-right: 20px;
 }
 .table > thead > tr > th { 
-	background: #3eb0f7; 
+	background: #81f596; 
 	color: #fff; 
 	border-bottom: 0; 
 	text-transform: uppercase; 

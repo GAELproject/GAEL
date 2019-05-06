@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <!--link do ícone da barra de título-->
+        <link rel="icon" type="image/jpg" href="images/logo2.ico" />
         <!-- /.website title -->
-        <title>Backyard Landing Page</title>
+        <title>E-Lixo: Projeto de Recon</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+        <!--link para os ícones-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <!-- CSS Files -->
         <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -14,6 +17,8 @@
         <link href="css/owl.theme.css" rel="stylesheet">
         <link href="css/owl.carousel.css" rel="stylesheet">
 
+        <!-- link do css próprio/nossas edições-->
+        <link rel="stylesheet" href="css/mystyle.css">
         <!-- Colors -->
         <link href="css/css-index.css" rel="stylesheet" media="screen">
         <!-- <link href="css/css-index-green.css" rel="stylesheet" media="screen"> -->
@@ -21,10 +26,11 @@
         <!-- <link href="css/css-index-red.css" rel="stylesheet" media="screen"> -->
         <!-- <link href="css/css-index-orange.css" rel="stylesheet" media="screen"> -->
         <!-- <link href="css/css-index-yellow.css" rel="stylesheet" media="screen"> -->
-
+        
         <!-- Google Fonts -->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" />
 
+        
     </head>
 
     <body data-spy="scroll" data-target="#navbar-scroll">
@@ -50,17 +56,21 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand site-name" href="#top"><img src="images/logo2.png" alt="logo"></a>
+                        <a class="navbar-brand site-name" href="#top">
+                            <img src="images/logo2.png" style="min-height: 41px;
+                            max-height: 26px;
+                         
+                            max-width: 68px;"alt="logo"></a>
                     </div>
 
                     <div id="navbar-scroll" class="collapse navbar-collapse navbar-backyard navbar-right">
                         <ul class="nav navbar-nav">
-                            <li><a href="#intro">About</a></li>
-                            <li><a href="#feature">Features</a></li>
-                            <li><a href="#download">Download</a></li>
-                            <li><a href="#package">Pricing</a></li>
-                            <li><a href="#testi">Reviews</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#intro">Sobre</a></li>
+                            <li><a href="#feature">Mais informações</a></li>
+                            <li><a href="#feature-2">Fila de serviços</a></li>
+                            <li><a href="#download">Inscrições atuais</a></li>
+                            <li><a href="#testi">+</a></li>
+                            <li><a href="#contact">Contato</a></li>
                             <li><a href="app\nice-html\ltr\login.html">Login</a></li>
                         </ul>
                     </div>
@@ -75,13 +85,20 @@
 
                     <!-- /.intro image -->
                     <div class="col-md-6 intro-pic wow slideInLeft">
-                        <img src="images/intro-image.jpg" alt="image" class="img-responsive">
+                        <img src="images/representationelixo.png" alt="image" class="img-responsive">
                     </div>	
 
                     <!-- /.intro content -->
                     <div class="col-md-6 wow slideInRight">
-                        <h2>Optimize performance through advanced targeting solutions</h2>
-                        <p>Good marketing makes the company look smart. <a href="#">Great marketing</a> makes the customer feel smart, - Joe Chernov. Never doubt a small group of thoughtful, committed people can change the world. Indeed, it is the only thing that ever has, - Margaret Mead. The best way to predict the future is to create it, - Peter Drucker.
+                        <h2>O que é o E-lixo?</h2>
+                        <p>O Projeto de Recondicionamento e Reciclagem de Resíduos
+                        Eletroeletrônicos, comumente conhecido como Projeto E-Lixo, é 
+                        um trabalho desenvolvido por discentes dos diversos cursos do 
+                        <i>Campus</i> Ntal - 
+                        Zona Norte do IFRN, sub coordenação/orientação do Professor 
+                        <a target="_blank" href="http://lattes.cnpq.br/0823948838312199" title="lattes">Aílton Torres Câmara</a>,
+                        com apoio dos técnicos <a target="_blank" href="http://lattes.cnpq.br/0446658933355131" title="lattes">Aecio Vinicius Amorim Farias </a>e
+                         <a target="_blank" href="http://lattes.cnpq.br/4347553539041045" title="lattes">Sérgio Roberto Dantas</a>.
                         </p>
 
                         <div class="btn-section"><a href="#feature" class="btn-default">Learn More</a></div>
@@ -98,59 +115,72 @@
                     <div class="col-md-10 col-md-offset-1 col-sm-12 text-center feature-title">
 
                         <!-- /.feature title -->
-                        <h2>Recreate your ideas and gain more success</h2>
-                        <p>Increase your user loyalty by maintaining mutual communication and nurturing your online community.</p>
+                        <h2>Notíciais publicadas e nossas notícias</h2>
+                        <p>Veja mais sobre o E-Lixo externamente</p>
                     </div>
                 </div>
                 <div class="row row-feat">
-                    <div class="col-md-4 text-center">
+                    <div class="col-md-4 text-center" style="margin-bottom: 30px;">
 
                         <!-- /.feature image -->
                         <div class="feature-img">
-                            <img src="images/feature-image.jpg" alt="image" class="img-responsive wow fadeInLeft">
+                            <img src="images/new1.png" alt="image" class="img-responsive wow fadeInLeft">
                         </div>
                     </div>
 
                     <div class="col-md-8">
 
                         <!-- /.feature 1 -->
-                        <div class="col-sm-6 feat-list">
-                            <i class="pe-7s-notebook pe-5x pe-va wow fadeInUp"></i>
+                        <div class="col-sm-6 feat-list" style="margin-top:0px;">
+                            
                             <div class="inner">
-                                <h4>Marketing Strategy</h4>
-                                <p>Good marketing makes the company look smart. Great marketing makes the customer feel smart.
+                                    <img src="images/logoifpng.png" style="
+                                    min-width: 34px;
+                                    max-width: 60px;
+                                    min-height: 12px;
+                                    max-height: 36px; 
+                                    float: left;" alt="logo do IFRN">
+                                <h4> <span>   No portal do IFRN</span> </h4>
+                                <p>
+                                    <a target="_blank" href="http://portal.ifrn.edu.br/campus/reitoria/noticias/ifrn-apresenta-projeto-que-propoe-o-reaproveitamento-de-eletronicos">
+                                        IFRN apresenta projeto que propõe o reaproveitamento de eletrônicos</a>
+                                    <br><br>
+                                        <a target="_blank" href="http://portal.ifrn.edu.br/campus/natalzonanorte/noticias/telejornal-exibe-materia-sobre-prototipos-criados-a-partir-de-lixo-eletronico">
+                                        Telejornal exibe matéria sobre protótipos criados a partir de lixo eletrônico</a>
+                                    <br> <br>
+                                        <a target="_blank"  href="http://portal.ifrn.edu.br/campus/natalzonanorte/noticias/alunos-desenvolvem-projeto-de-reaproveitamento-de-lixo-eletronico">
+                                        Alunos desenvolvem projeto de reaproveitamento de lixo eletrônico
+                                    </a>
+                                    
                                 </p>
                             </div>
                         </div>
 
                         <!-- /.feature 2 -->
-                        <div class="col-sm-6 feat-list">
-                            <i class="pe-7s-cash pe-5x pe-va wow fadeInUp" data-wow-delay="0.2s"></i>
-                            <div class="inner">
-                                <h4>App Monetization</h4>
-                                <p>Content builds relationships. Relationships are built on trust. Trust drives revenue. - Andrew Davis</p>
+                        <div class="col-sm-6 feat-list" style="margin-top: 0px;">
+                                <i class="fas fa-edit"></i>                            
+                            <div class="inner" style="margin-top:0;">
+                                <h4>Edital 001/2014 E-Lixo</h4>
+                                <p><a target="_blank" href="http://portal.ifrn.edu.br/campus/natalzonanorte/arquivos/formulario%20de%20inscricao%20-%202014.pdf">
+                                    Clique aqui
+                                </a></p>
                             </div>
                         </div>
 
                         <!-- /.feature 3 -->
                         <div class="col-sm-6 feat-list">
-                            <i class="pe-7s-cart pe-5x pe-va wow fadeInUp" data-wow-delay="0.4s"></i>
+                                <i class="fas fa-edit"></i>                            
                             <div class="inner">
-                                <h4>Store Optimization</h4>
-                                <p>Never doubt a small group of thoughtful, committed people can change the world. Indeed, it is the only thing that ever has.</p>
+                                <h4>Edital 001/2019 E-Lixo</h4>
+                                <p><a target="_blank" href="">
+                                    Clique aqui
+                                </a>Clique aqui</p>
                             </div>
                         </div>
 
-                        <!-- /.feature 4 -->
-                        <div class="col-sm-6 feat-list">
-                            <i class="pe-7s-users pe-5x pe-va wow fadeInUp" data-wow-delay="0.6s"></i>
-                            <div class="inner">
-                                <h4>User Management</h4>
-                                <p>Instead of using technology to automate processes, think about using technology to enhance human interaction.</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
+                <br><br>
             </div>
         </div>
 
@@ -161,17 +191,57 @@
 
                     <!-- /.feature content -->
                     <div class="col-md-6 wow fadeInLeft">
-                        <h2>Learn how to make your app marketing efficient</h2>
-                        <p>Good marketing makes the company look smart. <span class="highlight">Great marketing</span> makes the customer feel smart, - Joe Chernov. Never doubt a small group of thoughtful, committed people can change the world. Indeed, it is the only thing that ever has, - Margaret Mead. The best way to predict the future is to create it, - Peter Drucker.
-                        </p>
+                        <h2>Fila de espera/concluídos
+                            <br>
+                            dos consertos e laudos
+                        </h2>
+                        <p>
+                        <span style="background-color: green;" class="badge badge-pill badge-success">
+                        Quando a situação do seu equipamento estiver em concluído, <br>
+                        você deverá ir imediatamente ao E-Lixo para a retirada do dele.
+                        </span>
 
-                        <div class="btn-section"><a href="#download" class="btn-default">Download Now</a></div>
+                         
+                         </p>
+
 
                     </div>
 
                     <!-- /.feature image -->
                     <div class="col-md-6 feature-2-pic wow fadeInRight">
-                        <img src="images/feature2-image.jpg" alt="macbook" class="img-responsive">
+                            <table class="table table-striped">
+                                    <thead>
+                                      <tr style="background-color:green;">
+                                        <th scope="col">#</th>
+                                        <th scope="col">Tipo de equipamento</th>
+                                        <th scope="col">OS</th>
+                                        <th scope="col">Situação</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">1</th>
+                                        <td>TV Led LG</td>
+                                        <td>745376363</td>
+                                        <td>Em conserto</td>
+                                        
+                                        
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">2</th>
+                                        <td>LG - Carregador Notebook</td>
+                                        <td>352785725</td>
+                                        <td>Concluído</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">3</th>
+                                        <td>Rádio Microsystem</td>
+                                        <td>35235253532</td>
+                                       
+                                        <td>Concluído</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
                     </div>				  
                 </div>			  
 
@@ -181,18 +251,19 @@
 
         <!-- /.download section -->
         <div id="download">
-            <div class="action fullscreen parallax" style="background-image:url('images/bg.jpg');" data-img-width="2000" data-img-height="1333" data-diff="100">
+            <div class="action fullscreen parallax" style="background-image:url('images/fundo1.jpg');" data-img-width="2000" data-img-height="1333" data-diff="100">
                 <div class="overlay">
                     <div class="container">
                         <div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
 
                             <!-- /.download title -->
-                            <h2 class="wow fadeInRight">Would like to know more?</h2>
-                            <p class="download-text wow fadeInLeft">We'll research the market, identify the right target audience, analyze competitors and avoid users churn to increase retention. Download now for free and join with thousands happy clients.</p>
+                            <h2 class="wow fadeInRight">Quer participar do projeto?</h2>
+                            <p class="download-text wow fadeInLeft">
+                                Sempre que houverem inscrições disponíveis, a disponibilzaremos aqui.</p>
 
                             <!-- /.download button -->
                             <div class="download-cta wow fadeInLeft">
-                                <a href="#contact" class="btn-secondary">Get Connected</a>
+                                <a href="#contact" class="btn-secondary">Inscrever-se aqui</a>
                             </div>
                         </div>	
                     </div>	
@@ -200,170 +271,21 @@
             </div>
         </div>
 
-        <!-- /.pricing section -->
-        <div id="package">
-            <div class="container">
-                <div class="text-center">
-
-                    <!-- /.pricing title -->
-                    <h2 class="wow fadeInLeft">PACKAGES</h2>
-                    <div class="title-line wow fadeInRight"></div>
-                </div>
-                <div class="row package-option">
-
-                    <!-- /.package 1 -->
-                    <div class="col-sm-3">
-                        <div class="price-box wow fadeInUp">
-                            <div class="price-heading text-center">
-
-                                <!-- /.package icon -->
-                                <i class="pe-7s-radio pe-5x"></i>
-
-                                <!-- /.package name -->
-                                <h3>Basic</h3>
-                            </div>
-
-                            <!-- /.price -->
-                            <div class="price-group text-center">
-                                <span class="dollar">$</span>
-                                <span class="price">9</span>
-                                <span class="time">/mo</span>
-                            </div>
-
-                            <!-- /.package features -->
-                            <ul class="price-feature text-center">
-                                <li><strong>100MB</strong> Disk Space</li>
-                                <li><strong>200MB</strong> Bandwidth</li>
-                                <li><strong>2</strong> Subdomains</li>
-                                <li><strong>5</strong> Email Accounts</li>
-                                <li><strike>Webmail Support</strike></li>				  
-                            </ul>
-
-                            <!-- /.package button -->
-                            <div class="price-footer text-center">
-                                <a class="btn btn-price" href="#">BUY NOW</a>
-                            </div>	
-                        </div>
-                    </div>
-
-                    <!-- /.package 2 -->
-                    <div class="col-sm-3">
-                        <div class="price-box wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="price-heading text-center">
-
-                                <!-- /.package icon -->
-                                <i class="pe-7s-joy pe-5x"></i>
-
-                                <!-- /.package name -->
-                                <h3>Standard</h3>
-                            </div>
-
-                            <!-- /.price -->
-                            <div class="price-group text-center">
-                                <span class="dollar">$</span>
-                                <span class="price">19</span>
-                                <span class="time">/mo</span>
-                            </div>
-
-                            <!-- /.package features -->
-                            <ul class="price-feature text-center">
-                                <li><strong>300MB</strong> Disk Space</li>
-                                <li><strong>400MB</strong> Bandwidth</li>
-                                <li><strong>5</strong> Subdomains</li>
-                                <li><strong>10</strong> Email Accounts</li>
-                                <li><strike>Webmail Support</strike></li>			  
-                            </ul>
-
-                            <!-- /.package button -->
-                            <div class="price-footer text-center">
-                                <a class="btn btn-price" href="#">BUY NOW</a>
-                            </div>
-                        </div>
-                    </div>	
-
-                    <!-- /.package 3 -->
-                    <div class="col-sm-3">
-                        <div class="price-box wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="price-heading text-center">
-
-                                <!-- /.package icon -->
-                                <i class="pe-7s-science pe-5x"></i>
-
-                                <!-- /.package name -->
-                                <h3>Advance</h3>
-                            </div>
-
-                            <!-- /.price -->
-                            <div class="price-group text-center">
-                                <span class="dollar">$</span>
-                                <span class="price">29</span>
-                                <span class="time">/mo</span>
-                            </div>
-
-                            <!-- /.package features -->
-                            <ul class="price-feature text-center">
-                                <li><strong>1GB</strong> Disk Space</li>
-                                <li><strong>1GB</strong> Bandwidth</li>
-                                <li><strong>10</strong> Subdomains</li>
-                                <li><strong>25</strong> Email Accounts</li>
-                                <li>Webmail Support</li>					  
-                            </ul>
-
-                            <!-- /.package button -->
-                            <div class="price-footer text-center">
-                                <a class="btn btn-price" href="#">BUY NOW</a>
-                            </div>	
-                        </div>
-                    </div>
-
-                    <!-- /.package 4 -->
-                    <div class="col-sm-3">
-                        <div class="price-box wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="price-heading text-center">
-
-                                <!-- /.package icon -->
-                                <i class="pe-7s-tools pe-5x"></i>
-
-                                <!-- /.package name -->
-                                <h3>Ultimate</h3>
-                            </div>
-
-                            <!-- /.price -->
-                            <div class="price-group text-center">
-                                <span class="dollar">$</span>
-                                <span class="price">49</span>
-                                <span class="time">/mo</span>
-                            </div>
-
-                            <!-- /.package features -->
-                            <ul class="price-feature text-center">
-                                <li><strong>5GB</strong> Disk Space</li>
-                                <li><strong>5GB</strong> Bandwidth</li>
-                                <li><strong>50</strong> Subdomains</li>
-                                <li><strong>50</strong> Email Accounts</li>
-                                <li>Webmail Support</li>			  
-                            </ul>
-
-                            <!-- /.package button -->
-                            <div class="price-footer text-center">
-                                <a class="btn btn-price" href="#">BUY NOW</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
+       
 
         <!-- /.client section -->
         <div id="client"> 
             <div class="container">
+                <h3 style="text-align:center;">Atual equipe</h3>
                 <div class="row">
                     <div class="col-sm-12 text-center">
                         <img alt="client" src="images/client1.png" class="wow fadeInUp">
-                        <img alt="client" src="images/client2.png" class="wow fadeInUp" data-wow-delay="0.2s">
-                        <img alt="client" src="images/client3.png" class="wow fadeInUp" data-wow-delay="0.4s">
-                        <img alt="client" src="images/client4.png" class="wow fadeInUp" data-wow-delay="0.6s">
+                        <img alt="client" src="images/client1.png" class="wow fadeInUp">
+                        <img alt="client" src="images/client1.png" class="wow fadeInUp">
+                        <img alt="client" src="images/client1.png" class="wow fadeInUp">
+                        <img alt="client" src="images/client1.png" class="wow fadeInUp" data-wow-delay="0.2s">
+                        <img alt="client" src="images/client1.png" class="wow fadeInUp" data-wow-delay="0.4s">
+                        <img alt="client" src="images/client1.png" class="wow fadeInUp" data-wow-delay="0.6s">
                     </div>
                 </div>
             </div>	
@@ -373,7 +295,7 @@
         <div id="testi">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="wow fadeInLeft">TESTIMONIALS</h2>
+                    <h2 class="wow fadeInLeft">Inspiração</h2>
                     <div class="title-line wow fadeInRight"></div>
                 </div>
                 <div class="row">
@@ -382,58 +304,53 @@
 
                             <!-- /.testimonial 1 -->
                             <div class="testi-item">
-                                <div class="client-pic text-center">
-
-                                    <!-- /.client photo -->
-                                    <img src="images/testi1.png" alt="client">
-                                </div>
+                                
                                 <div class="box">
 
                                     <!-- /.testimonial content -->
-                                    <p class="message text-center">"We are very happy and satisfied with Backyard service. Our account manager is efficient and very knowledgeable. It was able to create a vast fan base within very short period of time. We would highly recommend Backyard App to anyone."</p>
+                                    <p class="message text-center">“Depois que comecei a cuidar do jardim aprendi tanta coisa, uma delas é que não se deve decretar a morte de um girassol antes do tempo. E que as plantas sentem dor, que nem a gente.”
+
+                                        </p>
                                 </div>
                                 <div class="client-info text-center">
 
                                     <!-- /.client name -->
-                                    Jennifer Lopez, <span class="company">Microsoft</span>	
+                                    Caio Fernando Abreu,<span class="company"> escritor brasileiro</span>	
                                 </div>
                             </div>		
 
                             <!-- /.testimonial 2 -->
                             <div class="testi-item">
-                                <div class="client-pic text-center">
-
-                                    <!-- /.client photo -->
-                                    <img src="images/testi2.png" alt="client">
-                                </div>
+                                
                                 <div class="box">
 
                                     <!-- /.testimonial content -->
-                                    <p class="message text-center">"Everything looks great... Thanks for the quick revision turn around. We were lucky to find you guys and will definitely be using some of your other services in the near future."</p>
+                                    <p class="message text-center">“Se soubesse que o mundo se acaba amanhã, eu ainda hoje plantaria uma árvore.”
+
+                                        </p>
                                 </div>
                                 <div class="client-info text-center">
 
                                     <!-- /.client name -->
-                                    Mike Portnoy, <span class="company">Dream Theater</span>	
+                                    MARTIN LUTHER KING <span class="company"></span>	
                                 </div>
                             </div>				
 
                             <!-- /.testimonial 3 -->
                             <div class="testi-item">
-                                <div class="client-pic text-center">
-
-                                    <!-- /.client photo -->
-                                    <img src="images/testi3.png" alt="client">
-                                </div>
+                               
                                 <div class="box">
 
                                     <!-- /.testimonial content -->
-                                    <p class="message text-center">"Overall, the two reports were very clear and helpful so thank you for the suggestion to do the focus group. We are currently working with our developer to implement some of these suggestions."</p>
+                                    <p class="message text-center">
+                                            “A natureza criou o tapete sem fim que recobre a superfície da terra. Dentro da pelagem desse tapete vivem todos os animais, respeitosamente. Nenhum o estraga, nenhum o rói, exceto o homem.”
+
+                                            </p>
                                 </div>
                                 <div class="client-info text-center">
 
                                     <!-- /.client name -->
-                                    Jennifer Love Hewitt, <span class="company">Lead Vocal</span>	
+                                    Monteiro Lobato, <span class="company"> Miscelânea, 1946.</span>	
                                 </div>
                             </div>			
 
@@ -445,23 +362,23 @@
 
         <!-- /.contact section -->
         <div id="contact">
-            <div class="contact fullscreen parallax" style="background-image:url('images/bg.jpg');" data-img-width="2000" data-img-height="1334" data-diff="100">
+            <div class="contact fullscreen parallax" style="background-image:url('images/fundo2.jpg');" data-img-width="2000" data-img-height="1334" data-diff="100">
                 <div class="overlay">
                     <div class="container">
                         <div class="row contact-row">
 
                             <!-- /.address and contact -->
                             <div class="col-sm-5 contact-left wow fadeInUp">
-                                <h2><span class="highlight">Get</span> in touch</h2>
+                                <h2><span class="highlight">Chegue</span> ao E-Lixo</h2>
                                 <ul class="ul-address">
-                                    <li><i class="pe-7s-map-marker"></i>1600 Amphitheatre Parkway, Mountain View</br>
-                                        California 55000
+                                    <li><i class="pe-7s-map-marker"></i>Rua Brusque, 2926, Conjunto Santa Catarina, Potengi</br>
+                                        Natal-RN | CEP: 59112-490
+                                        
                                     </li>
                                     <li><i class="pe-7s-phone"></i>+1 (123) 456-7890</br>
                                         +2 (123) 456-7890
                                     </li>
-                                    <li><i class="pe-7s-mail"></i><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-                                    <li><i class="pe-7s-look"></i><a href="#">www.yoursite.com</a></li>
+                                    <li><i class="pe-7s-mail"></i><a href="mailto:.com">elixo@gmail.com</a></li>
                                 </ul>	
 
                             </div>
@@ -470,16 +387,16 @@
                             <div class="col-sm-7 contact-right">
                                 <form method="POST" id="contact-form" class="form-horizontal" action="contactengine.php" onSubmit="alert( 'Thank you for your feedback!' );">
                                     <div class="form-group">
-                                        <input type="text" name="Name" id="Name" class="form-control wow fadeInUp" placeholder="Name" required/>
+                                        <input type="text" name="Name" id="Name" class="form-control wow fadeInUp" placeholder="Nome" required/>
                                     </div>
                                     <div class="form-group">
                                         <input type="text" name="Email" id="Email" class="form-control wow fadeInUp" placeholder="Email" required/>
                                     </div>					
                                     <div class="form-group">
-                                        <textarea name="Message" rows="20" cols="20" id="Message" class="form-control input-message wow fadeInUp"  placeholder="Message" required></textarea>
+                                        <textarea name="Message" rows="20" cols="20" id="Message" class="form-control input-message wow fadeInUp"  placeholder="Mensagem" required></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <input type="submit" name="submit" value="Submit" class="btn btn-success wow fadeInUp" />
+                                        <input type="submit" name="submit" value="Enviar" class="btn btn-success wow fadeInUp" />
                                     </div>
                                 </form>		
                             </div>
@@ -502,7 +419,7 @@
                             <li><a class="wow fadeInUp" href="https://instagram.com/" data-wow-delay="0.6s"><i class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>	
-                    <div class="text-center wow fadeInUp" style="font-size: 14px;">Copyright Backyard 2015 - Template by  <a href="http://bootstrapthemes.co/" target="_blank">BootstrapThemes</a></div>
+                    <div class="text-center wow fadeInUp" style="font-size: 14px;">Copyright Echo Develpment Software 2019</div>
                     <a href="#" class="scrollToTop"><i class="pe-7s-up-arrow pe-va"></i></a>
                 </div>	
             </div>	
