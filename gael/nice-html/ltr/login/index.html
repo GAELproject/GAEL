@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html dir="ltr"><head>
-    <meta charset="utf-8">
+<!-- saved from url=(0095)https://www.wrappixel.com/demos/admin-templates/nice-admin/html/dark/authentication-login1.html -->
+<html lang="pt-br">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon.png">
-    <title>Nice admin Template - The Ultimate Multipurpose admin template</title>
+    <link rel="icon" type="image/png" style="width:20px;" href="./../../../../images/logo123.ico">
+    <title>GAEL - Sistema Integrado de Gerenciamento de Eletroeletrônicos</title>
     <!-- Custom CSS -->
-    <link href="../../dist/css/style.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" 
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" 
+    crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="../../../assets/libs/bootstrap/dist/css/bootstrap.min.css">
+    <link href="./assets/style.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -36,79 +45,68 @@
         <!-- ============================================================== -->
         <!-- Login box.scss -->
         <!-- ============================================================== -->
-        <div class="auth-wrapper d-flex no-block justify-content-center align-items-center" style="background:url(../../assets/images/big/auth-bg.jpg) no-repeat center center;">
-            <div class="auth-box">
+        <div class="auth-wrapper d-flex no-block justify-content-center align-items-center" style="background-color:#60a060">
+            <div class="auth-box rounded shadow-lg ">
                 <div id="loginform">
                     <div class="logo">
-                        <span class="db"><img src="../../assets/images/logo-icon.png" alt="logo"></span>
-                        <h5 class="font-medium m-b-20">Sign In to Admin</h5>
+                        <span class="logo"><img style="min-width: 60px; max-width: 100px; " src="./assets/images/gael_logo.png" alt="logo"></span>
+                        <h5 class="font-medium m-b-20">Sistema integrado de Gerenciamento de Eletroeletrônicos</h5>
                     </div>
                     <!-- Form -->
                     <div class="row">
                         <div class="col-12">
-                            <form class="form-horizontal m-t-20" id="loginform" action="index.html">
+                            <form class="form-horizontal m-t-20" id="loginform" action="../../ltr/index.html">
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text" id="basic-addon1"><i class="ti-user"></i></span>
+                                        <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
                                     </div>
-                                    <input type="text" class="form-control form-control-lg" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                    <input type="text" class="form-control form-control-lg" placeholder="Login" aria-label="Username" aria-describedby="basic-addon1">
                                 </div>
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text" id="basic-addon2"><i class="ti-pencil"></i></span>
+                                        <span class="input-group-text" id="basic-addon2"><i class="fas fa-lock"></i>    </i></span>
                                     </div>
-                                    <input type="text" class="form-control form-control-lg" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+                                    <input type="password" class="form-control form-control-lg" placeholder="Senha" aria-label="Password" aria-describedby="basic-addon1">
                                 </div>
                                 <div class="form-group row">
                                     <div class="col-md-12">
                                         <div class="custom-control custom-checkbox">
                                             <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                            <label class="custom-control-label" for="customCheck1">Remember me</label>
+                                            <label class="custom-control-label" for="customCheck1">Lembrar minha senha</label>
                                             <a href="javascript:void(0)" id="to-recover" class="text-dark float-right"><i class="fa fa-lock m-r-5"></i> Forgot pwd?</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group text-center">
                                     <div class="col-xs-12 p-b-20">
-                                        <button class="btn btn-block btn-lg btn-info" type="submit">Log In</button>
+                                        <button class="btn btn-block btn-lg btn-info" type="submit">Entrar</button>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-12 m-t-10 text-center">
-                                        <div class="social">
-                                            <a href="javascript:void(0)" class="btn  btn-facebook" data-toggle="tooltip" title="" data-original-title="Login with Facebook"> <i aria-hidden="true" class="fab  fa-facebook"></i> </a>
-                                            <a href="javascript:void(0)" class="btn btn-googleplus" data-toggle="tooltip" title="" data-original-title="Login with Google"> <i aria-hidden="true" class="fab  fa-google-plus"></i> </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group m-b-0 m-t-10">
-                                    <div class="col-sm-12 text-center">
-                                        Don't have an account? <a href="authentication-register1.html" class="text-info m-l-5"><b>Sign Up</b></a>
-                                    </div>
-                                </div>
+                               
+                              
                             </form>
                         </div>
                     </div>
                 </div>
                 <div id="recoverform">
                     <div class="logo">
-                        <span class="db"><img src="../../assets/images/logo-icon.png" alt="logo"></span>
-                        <h5 class="font-medium m-b-20">Recover Password</h5>
-                        <span>Enter your Email and instructions will be sent to you!</span>
+                        <span class="db"><img style="min-width: 60px; max-width: 100px;" src="../../../../images/gael_logo.png" alt="logo"></span>
+                        <h5 class="font-medium m-b-20">Recuperar senha</h5>
+                        <span>Digite aqui seu e-mail cadastrado para enviarmos as instruções!</span>
                     </div>
                     <div class="row m-t-20">
                         <!-- Form -->
-                        <form class="col-12" action="index.html">
+                        <form class="col-12" action="">
                             <!-- email -->
                             <div class="form-group row">
                                 <div class="col-12">
-                                    <input class="form-control form-control-lg" type="email" required="" placeholder="Username">
+                                    <input class="form-control form-control-lg" type="email" required="" placeholder="E-mail">
                                 </div>
                             </div>
                             <!-- pwd -->
                             <div class="row m-t-20">
                                 <div class="col-12">
-                                    <button class="btn btn-block btn-lg btn-danger" type="submit" name="action">Reset</button>
+                                    <button class="btn btn-block btn-lg btn-danger" type="submit" name="action">Restaurar</button>
                                 </div>
                             </div>
                         </form>
@@ -135,10 +133,10 @@
     <!-- ============================================================== -->
     <!-- All Required js -->
     <!-- ============================================================== -->
-    <script src="../../assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
-    <script src="../../assets/libs/popper.js/dist/umd/popper.min.js"></script>
-    <script src="../../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./assets/popper.min.js"></script>
+    <script src="./assets/bootstrap.min.js"></script>
     <!-- ============================================================== -->
     <!-- This page plugin js -->
     <!-- ============================================================== -->
